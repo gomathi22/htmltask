@@ -1,0 +1,244 @@
+/* Common-css */
+h1,h2,h3,h4,h5,h6,p{
+  margin:0px;
+}
+
+.banner-section
+{
+  width:100%;
+  height:100vh;
+  background-image:center;
+  background-repeat:no-repeat;
+
+}
+.banner-section img
+{
+  width:100%;
+  height:100%;
+}
+
+.banner-content
+{
+  position:absolute;
+  top:50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.banner-heading h1
+{
+  text-align:center;
+  font-size: 26px;
+  letter-spacing: 0.55px;
+  color:white;
+  font-family:Verdana;
+  font-weight:bold;
+  padding-top:30px;
+  padding-bottom:35px;
+  line-height: 31px;
+  letter-spacing: 0.46px;
+ 
+}
+.common-heading h1
+{
+  text-align:center;
+  font-size: 26px;
+  letter-spacing: 0.55px;
+  color:black;
+  font-family:Verdana;
+  font-weight:bold;
+  padding-top:71px;
+  padding-bottom:91px;
+  line-height: 31px;
+  letter-spacing: 0.46px;
+  
+}
+
+.main-block h1
+{
+    color:black;
+}
+
+.banner-content p
+{
+  padding-top:25px;
+  margin:0px auto;
+  text-align:center;
+  line-height:30px;
+  width:65%;
+  color:white;
+  font-size:16px;
+}
+.blue-btn{
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.22px;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding:25px 0px;
+    width: 183px;
+    min-width: 183px;
+    background-color: #152D46;
+}
+.banner-content-bottom      
+{
+  text-align:center;
+  position:relative;
+  bottom:45px;
+  display:block;
+  color:white;
+}
+.procurement-card 
+{
+  box-shadow: 0 6px 20px 0 rgba(0,0,0,0.1);
+  margin-top:91px;
+  padding:0px 15px;
+}
+
+.procurement-card-img
+{
+  height:80px;
+  width:80px;
+  margin:0px auto;
+  margin-bottom:30px;
+  display:block;
+  text-align:center;
+
+}
+.procurement-card-img img
+{
+  height:100%;
+  width:100%;
+  border-radius:50%;
+}
+.procurement-card h3
+{
+  text-align:center;
+  letter-spacing: 0.24px;
+  line-height: 26px;
+  padding-top:10px;
+  padding-bottom:20px;
+}
+.procurement-card p
+{
+  text-align:center;
+  padding-bottom:30px;
+  line-height: 29px;
+  
+}
+.procurement-card-ancher 
+{
+  color:black;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom:47px;
+}
+
+.procurement-card-span
+{
+  margin-top:30px;
+  font-weight:bold;
+  text-align:center;
+}
+.view-more-section
+{
+  text-align:center;
+  padding-top:70px;
+  padding-bottom:50px;
+  
+}
+.blue-btn
+{
+  padding-bottom:25px;
+  background-color:darkblue;
+  font-weight:bold;
+  color:white;
+  text-align:center;
+  height:80px;
+  width:220px;
+  display:inline-block;
+}
+
+.unit
+{
+    background-color: #F3F3F3;
+}
+
+.unit-img
+{
+    height:60px;
+    width:60px;
+    margin:0px auto;
+    padding-top:12px;
+    display:block;
+    text-align:center;
+}
+
+.unit-img img
+{
+    height:100%;
+    width:100%;
+}
+
+.unit p
+{
+  text-align:center;
+  font-size:15px;
+  padding-bottom:70px;
+}
+.gallery span
+{
+  position:absolute;
+  top:50%;
+  width:150px;
+  -ms-transform: translateY(-50%);
+  transform:translateY(-256px);
+  color:white;
+  background-color:black;
+  padding:14px 0px;
+  text-align:center;
+  
+}
+.gallery h1
+{
+  text-align:center;
+  
+}
+.study-img
+{
+  width:445px;
+  height:235px;
+  padding-top:60px;
+  
+}
+.study-img img
+{
+ width:100%;
+ height:100%;
+}
+.gallery p
+{
+  padding-top:30px;
+  font-weight:bold;
+  padding-bottom:30px;
+  width:435px;
+}
+.gallery-bottom p
+{
+  font-weight:normal;
+  text-align:justify;
+  width:435px;
+}
+.download-ancher
+{
+  padding-bottom:25px;
+ padding-top:25px;
+  font-weight:bold;
+  color:black;
+  text-align:center;
+  height:80px;
+  width:220px;
+  display:inline-block;
+  border-color: black;
+  position:absolute;
+  transform:translateX(-18px);
+}

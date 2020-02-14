@@ -1,0 +1,100 @@
+/* Common-css */
+h1,h2,h3,h4,h5,h6,p{
+  margin:0px;
+}
+
+.banner-section
+{
+  width:100%;
+  height:100vh;
+  background-image:center;
+  background-repeat:no-repeat;
+
+}
+.banner-section img
+{
+  width:100%;
+  height:100%;
+}
+
+.banner-content
+{
+  position:absolute;
+  top:50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.banner-content h1
+{
+  text-align:center;
+  font-size:30px;
+  color:white;
+  font-family:Verdana;
+  font-weight:bold;
+}
+.banner-content p
+{
+  padding-top:25px;
+  margin:0px auto;
+  text-align:center;
+  line-height:30px;
+  width:65%;
+  color:white;
+  font-size:16px;
+}
+.banner-content-bottom      
+{
+  text-align:center;
+  position:relative;
+  bottom:45px;
+  display:block;
+  color:white;
+}
+.main-block
+{
+  width:100%;
+  height:100vh;
+}
+.main-block h1
+{
+  padding-top:30px;
+  padding-bottom:30px;
+  text-align:center;
+  font-size:30px;
+  color:black;
+  font-family:Verdana;
+  font-weight:bold;
+}
+.main-block p
+{
+  text-align:center;
+  font-size:15px;
+  line-height:24px;
+}
+
+.main-block img
+{
+  height:70px;
+  width:70px;
+  text-align:center;
+  margin:0px auto;
+  border-radius:50%;
+  margin-bottom:30px;
+}
+.main-block-span
+{
+  margin-top:30px;
+  font-weight:bold;
+  text-align:center;
+}
+
+.main-block button
+{
+  padding-top:30PX;
+  background-color:darkblue;
+  font-weight:bold;
+  color:white;
+  text-align:center;
+  height:80px;
+  width:220px;
+}
